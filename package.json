@@ -1,0 +1,17 @@
+{
+  "name": "TryK's Note",
+  "version": "1.0.0",
+  "description": "to show content in separate pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "keywords": [],
+  "author": "TryK",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
