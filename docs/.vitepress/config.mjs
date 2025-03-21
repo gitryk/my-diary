@@ -27,5 +27,14 @@ export default defineConfig({
         ]
       }
     ]
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        css: {
+          additionalData: `@import "./theme/custom.css";`
+        }
+      }
+    }
   }
 })
