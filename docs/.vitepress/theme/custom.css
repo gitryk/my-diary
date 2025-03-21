@@ -1,3 +1,7 @@
 .VPSidebarItem .caret {
     display: none !important;
   }
+
+.VPSidebarItem.collapsible > .item {
+    pointer-events: none;
+  }
